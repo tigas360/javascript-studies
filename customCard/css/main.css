@@ -1,0 +1,73 @@
+body,header,ul,li,nav,h3{
+    margin:0;
+    padding:0;
+}
+
+.page-head
+{
+    display: flex;
+}
+.page-head > .content
+{
+    display:flex;
+    border: 1px solid orange;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-container{
+    display:flex;
+    width: 100%;
+    min-height: 75vh;
+}
+.page-container > .content{
+    display: flex;
+    border:1px solid orange;
+    width: 100%;
+}
+
+header > nav
+{
+    display: flex;
+    width: 100%;
+}
+
+header > nav > ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+ }
+header > nav > ul > li.item 
+{
+    list-style: none;
+    justify-content: space-around;
+    margin: 2px 8px;
+    padding: 0 10px;
+    border: 1px solid rgb(51, 122, 255);
+    border-radius: 4px;
+}
+header > nav > ul > li.item:hover
+{
+    background: yellow;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+.title
+{
+    padding: 0 4px 0 8px;
+    margin: 0 5px 0 8px;
+}
+.page-footer
+{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 0 0 20px 20px;
+}
+
+.page-footer > .content{
+    min-height: 14vh;
+}
